@@ -1,12 +1,44 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ships</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div class="container">
+        <h1>Hajók</h1>
+
+        <div class="citatum">
+
+            Minden emberi kapcsolatnak lényeges része, hogy szükség esetén a két fél bírálja egymást. E nélkül minden kapcsolat sekély vagy sikertelen. - Morgan Scott Peck
+        </div>
+        <div id="about">
+            <h5 class="text-muted">Szinyei Mikes, Szoft I-2 N, 2023-05-19</h3>
+        </div>
+        
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Méret (cm)</th>
+                    <th>Ár</th>
+                    <th>Személyek száma</th>
+                    <th>Utánfutó</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="bootstrap.js"></script>
 </body>
 </html>

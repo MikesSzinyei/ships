@@ -1,0 +1,19 @@
+
+
+#about {
+    border-style: solid;
+    border-width: 6px;
+    border-color:#f2f2f2;
+    border-radius: 50px;
+    text-align: center;
+    position:fixed;
+    top:200px;
+    right:50px;
+    width:400px;
+    rotate: 90deg;
+    background-color: white;
+}
+
+.citatum {
+    font-size: 0.6rem;
+}

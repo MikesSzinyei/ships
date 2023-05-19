@@ -44,7 +44,7 @@ function render() {
             <td>${ship.name}</td>
             <td>${ship.length}</td>
             <td>${ship.price}</td>
-            <td>${ship.price}</td>
+            <td>${ship.person}</td>
             <td>${ship.trailer}</td>
         </tr>
         `;
